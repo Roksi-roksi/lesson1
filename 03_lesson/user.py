@@ -13,7 +13,3 @@ class User:
     def str_first_last(self):
         print(f"{self.first_name} {self.last_name}")
 
-prob = User('Rita', 'Hop')
-prob.str_first()
-prob.str_last()
-prob.str_first_last()

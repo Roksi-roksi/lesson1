@@ -6,3 +6,6 @@ class Address:
         self.street = street
         self.house = house
         self.flat = flat
+
+    def send(self):
+        return f"{self.index},{self.city},{self.street},{self.house}-{self.flat}"
