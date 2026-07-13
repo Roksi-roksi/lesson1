@@ -12,4 +12,3 @@ class User:
 
     def str_first_last(self):
         print(f"{self.first_name} {self.last_name}")
-
